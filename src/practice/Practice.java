@@ -33,6 +33,5 @@ public class Practice {
                 counter = 0; // reset the line counter
             }
         }
-    }
-    
+    }    
 }
