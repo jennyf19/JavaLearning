@@ -33,5 +33,22 @@ public class Practice {
                 counter = 0; // reset the line counter
             }
         }
+        // Sound travels 1,100 feet per second through air
+        double distance;
+        
+        distance = 7.2 * 1100;
+        
+        System.out.println("The lightning is " + distance + " feet away.");
+        
+        // Printing out format
+        System.out.println("First line\nSecond Line");
+        System.out.println("A\tB\tC");
+        System.out.println("D\tE\tF");
+        
+        // Dynamic initialization
+        double radius = 4, height = 5;
+        double volume = 3.1416 * radius * radius * height;
+        System.out.println("Volume is " + volume);
+    }
     }    
-}
+
