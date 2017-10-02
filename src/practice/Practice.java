@@ -49,6 +49,30 @@ public class Practice {
         double radius = 4, height = 5;
         double volume = 3.1416 * radius * radius * height;
         System.out.println("Volume is " + volume);
+        
+        System.out.println("P\tQ\tAND\tOR\tXOR\tNOT");
+        
+        boolean p, q;
+        
+        p= true; q= true;        
+        System.out.print(p+ "\t" + q + "\t");
+        System.out.print((p&q) + "\t" + (p|q)+ "\t");
+        System.out.print((p^q) + "\t" + (!p));
+        
+        p= true; q= false;        
+        System.out.print("\n" +p+ "\t" + q + "\t");
+        System.out.print((p&q) + "\t" + (p|q)+ "\t");
+        System.out.print((p^q) + "\t" + (!p));
+        
+        p= false; q= true;        
+        System.out.print("\n" +p+ "\t" + q + "\t");
+        System.out.print((p&q) + "\t" + (p|q)+ "\t");
+        System.out.print((p^q) + "\t" + (!p));
+        
+        p= false; q= false;        
+        System.out.print("\n" +p+ "\t" + q + "\t");
+        System.out.print((p&q) + "\t" + (p|q)+ "\t");
+        System.out.print((p^q) + "\t" + (!p));
     }
     }    
 
